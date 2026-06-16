@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.1.0-alpha.3</Version>
+    <Version>0.1.0-alpha.4</Version>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
 
-    <PackageId>Tools.Regex</PackageId>
+    <PackageId>SaMirzaei.DevTools.Regex</PackageId>
     <Authors>Saeid Mirzaei</Authors>
     <Description>A small, dependency-light .NET library for testing and explaining regular expressions.</Description>
     <PackageTags>regex;regular-expressions;regex-tester;dev-tools</PackageTags>
