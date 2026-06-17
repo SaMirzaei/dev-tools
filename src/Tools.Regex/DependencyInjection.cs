@@ -6,9 +6,10 @@ namespace Tools.Regex
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddSaeidRegexTools(this IServiceCollection services)
+        public static IServiceCollection AddRegexTools(this IServiceCollection services)
         {
             services.AddSingleton<IRegexService, RegexService>();
+            
             return services;
         }
     }
