@@ -1,8 +1,10 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Tools.Base64/Tools.Base64.csproj" Id="9929ac15-56e1-4642-82df-6f8d91a4fec3" />
     <Project Path="src/Tools.Regex/Tools.Regex.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/Tools.Base64.Tests/Tools.Base64.Tests.csproj" />
     <Project Path="tests/Tools.Regex.Tests/Tools.Regex.Tests.csproj" />
   </Folder>
 </Solution>
