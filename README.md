@@ -15,18 +15,21 @@ Each tool is documented in its own README. Click a tool below for details, usage
 
 | Tool | Description | Target Framework | Docs |
 | --- | --- | --- | --- |
+| `Tools.Base64` | Encode, decode, and validate Base64 input with text/file-aware responses and MIME-type hints. | `netstandard2.1` | [README](src/Tools.Base64/README.md) |
 | `Tools.Regex` | Test regular expressions against input text and get a lightweight, human-readable explanation of a pattern. | `netstandard2.1` | [README](src/Tools.Regex/README.md) |
 
 > More tools are on the way. See [Roadmap](#roadmap).
 
 ## Repository structure
 
-```
+```text
 dev-tools/
 ├── dev-tools.slnx          # Solution file
 ├── src/                    # Tool libraries
+│   ├── Tools.Base64/       # Base64 encoding/decoding/validation tool
 │   └── Tools.Regex/        # Regex testing & explanation tool
 ├── tests/                  # Unit tests (xUnit)
+│   ├── Tools.Base64.Tests/
 │   └── Tools.Regex.Tests/
 ├── samples/                # Usage samples
 ├── LICENSE
